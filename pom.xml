@@ -19,6 +19,7 @@
         <module>springboot-webflux-example</module>
         <module>springboot-rsocket-example</module>
         <module>springboot-websocket-example</module>
+        <module>springboot-rsocket-client-example</module>
     </modules>
 
     <properties>

@@ -1,34 +1,25 @@
-# reactive web
+# reactive rsocket
 
 [![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://groups.google.com/g/reactive-group)
 
-Reactive Web Example.
+Reactive RSocket Example.
 
-提供Reactive网络端口服务的示例程序库
+通过Webflux框架提供Reactive RSocket端口服务的示例程序库
 
 ## Contributing
 
 [How to contribute](./CONTRIBUTING.md)
 
-## 示例清单
-
-[springboot-webflux-example](./springboot-webflux-example)
-
-[springboot-rsocket-example](./springboot-rsocket-example)
-
-[springboot-rsocket-client-example](./springboot-rsocket-client-example)
-
-[springboot-websocket-example](./springboot-websocket-example)
-
 ## 启动server监听网络端口
 
 1. 通过`springboot`启动应用程序
+2. 通过[springboot-rsocket-client-example](../springboot-rsocket-client-example)访问rsocket服务
 
 1. 通过`test`单元测试进行调试
 
 ## 请求网络端口
 
-1. 通过对应协议访问`localhost`对应端口，查看数据交互
+1. 通过rsocket协议访问`localhost:7000`对应端口，查看数据交互
 
 ## 技术原理
 

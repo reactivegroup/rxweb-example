@@ -1,0 +1,6 @@
+GET http://localhost:8080/mono
+
+###
+GET http://localhost:8080/flux
+
+###
