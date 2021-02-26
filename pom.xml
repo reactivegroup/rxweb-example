@@ -20,6 +20,7 @@
         <module>springboot-rsocket-example</module>
         <module>springboot-websocket-example</module>
         <module>springboot-rsocket-client-example</module>
+        <module>springboot-webclient-example</module>
     </modules>
 
     <properties>
